@@ -1,7 +1,6 @@
-import '../../models/currency_model.dart';
-import '../../models/universal_response.dart';
-import 'api_provider.dart';
-
+import 'package:login_screen_homework/data/network/api_provider.dart';
+import 'package:login_screen_homework/models/currency_model.dart';
+import 'package:login_screen_homework/models/universal_response.dart';
 
 class CurrencyRepository {
   final ApiProvider apiProvider;

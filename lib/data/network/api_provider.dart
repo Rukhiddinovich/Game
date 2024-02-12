@@ -1,10 +1,7 @@
 import 'dart:convert';
-
-import 'package:http/http.dart';
-
-import '../../models/currency_model.dart';
-import '../../models/universal_response.dart';
 import 'package:http/http.dart' as http;
+import 'package:login_screen_homework/models/currency_model.dart';
+import 'package:login_screen_homework/models/universal_response.dart';
 
 class ApiProvider {
    Future<UniversalResponse> getAllCurrencies() async {
